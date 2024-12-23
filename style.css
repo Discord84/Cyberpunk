@@ -495,3 +495,73 @@ ul li {
     color: #000000;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+    }
+    .info {
+        position: relative;
+        top: 0;
+        left: 0;
+        max-width: 400px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .collage {
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .left {
+        max-width: 50%;
+    }
+    .right {
+        max-width: 50%;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .form {
+        width: 100%;
+    }
+    .right-block {
+        width: 100%;
+    }
+    .babap {
+        display: flex;
+        flex-direction: column;
+    }
+    .righti {
+        width: 100%;
+    }
+    .lefti {
+        width: 100%;
+    }
+    .bibip {
+        display: flex;
+        flex-direction: column;
+    }
+    .righty {
+        min-height: 398px;
+        width: 100%;
+    }
+    .top {
+        display: flex;
+        flex-direction: column;
+    }
+    .leftt{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightt {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 28px;
+    }
+}
