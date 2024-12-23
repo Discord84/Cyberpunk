@@ -564,4 +564,10 @@ ul li {
         margin-bottom: 50px;
         font-size: 28px;
     }
+    .about img {
+        display: none;
+    }
+    .lefty {
+        width: 100%;
+    }
 }
