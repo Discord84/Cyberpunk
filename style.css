@@ -518,10 +518,10 @@ ul li {
         justify-content: center;
     }
     .left {
-        max-width: 50%;
+        width: 100%;
     }
     .right {
-        max-width: 50%;
+        width: 100%;
     }
     .main {
         display: flex;
